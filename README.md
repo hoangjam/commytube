@@ -1,8 +1,7 @@
 # This project is to be a replacement for Y*uTube, for the community, by the community like it was originally supposed to be.
 
 
-
-## Getting Started with Create React App
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
