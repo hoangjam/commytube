@@ -3,16 +3,16 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import VideoPlayer from './pages/VideoPlayer';
-import Header from './components/Header';
+// import VideoPlayer from './pages/VideoPlayer';
+// import Header from './components/Header';
 
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/video/:id" element={<VideoPlayer />} />
+        {/* <Route path="/video/:id" element={<VideoPlayer />} /> */}
 
       </Routes>
     </Router>

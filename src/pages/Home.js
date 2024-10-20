@@ -6,12 +6,17 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     // Replace this with fetched data (videos)
     const videos = [
+        // dynamically fill and then display on homepage
       
     ];
   
     return (
       <div>
         <h1>Home Page</h1>
+        <h2>Community Videos</h2>
+
+        {/* horizontal list of videos, 4x2 */}
+
         <div>
           {videos.map(video => (
             <Link key={video.id} to={`/video/${video.id}`}>
