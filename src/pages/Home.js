@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import VideoPlayer from '../components/VideoPlayer';
 
 const Home = () => {
     // Replace this with fetched data (videos)
@@ -14,9 +15,11 @@ const Home = () => {
       <div>
         <h1>Home Page</h1>
         <h2>Community Videos</h2>
+        <VideoPlayer />
 
         {/* horizontal list of videos, 4x2 */}
 
+        
         <div>
           {videos.map(video => (
             <Link key={video.id} to={`/video/${video.id}`}>
